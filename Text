@@ -1,0 +1,14 @@
+bot-digistore24/
+  src/
+    index.js
+    digistore-marketplace.js
+    trends.js
+    score.js
+  scripts/
+    digistore-login.js
+  Dockerfile
+  .dockerignore
+  fly.toml
+  package.json
+  .env.example
+  README.md
