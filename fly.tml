@@ -1,0 +1,16 @@
+app = "NOME_DO_SEU_APP_AQUI"
+primary_region = "gru"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[mounts]
+  source = "data"
+  destination = "/data"
+
+[env]
+  NODE_ENV = "production"
+  SQLITE_PATH = "/data/bot.sqlite"
+  BAILEYS_AUTH_DIR = "/data/wa-auth"
+  DIGISTORE_STORAGE = "/data/digistore-storage.json"
+  TRENDS_GEO = "BR"
