@@ -1,0 +1,6 @@
+node_modules
+auth
+digistore-storage.json
+*.sqlite
+.git
+.env
